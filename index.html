@@ -56,6 +56,37 @@
         strong {
             font-weight: 600;
         }
+
+        /* --- Added for Apple verification / company-site relationship --- */
+        .company-proof {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e6e8eb;
+        }
+        .company-proof .badge {
+            display: inline-block;
+            background: #eef2f6;
+            color: #1c2833;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+        .company-proof img {
+            width: 100%;
+            max-width: 520px;
+            height: auto;
+            border: 1px solid #e6e8eb;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            display: block;
+            margin-top: 10px;
+        }
+        .footer-legal {
+            margin-top: 6px;
+            font-size: 12px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
@@ -173,6 +204,22 @@ We may update this Privacy Policy from time to time. Any changes will be posted 
 with an updated “Last Updated” date.
 </p>
 
+<!-- ✅ Added section: Company ↔ Domain relationship + registry certificate -->
+<section class="company-proof">
+    <div class="badge">Official Company Details</div>
+
+    <h2>Company & Website Ownership</h2>
+    <p>
+        This website (<strong>https://www.shaldagsecurity.digital/</strong>) is owned and operated by
+        <strong>Shaldag Security Ltd</strong> (Company Registration No. <strong>516136090</strong>).
+    </p>
+
+    <p><strong>Certificate of Registration (Companies Registry)</strong></p>
+
+    <!-- Put the image file next to this HTML as: company-registration.png -->
+    <img src="company-registration.png" alt="Shaldag Security Ltd - Certificate of Registration" />
+</section>
+
 <h2>12. Contact Us</h2>
 <p>
 If you have any questions about this Privacy Policy, please contact us at:
@@ -185,21 +232,16 @@ Email: <strong>avielaadri@gmail.com</strong>
 </main>
 
 <footer>
-    &copy; <span id="year"></span> Shaldag Security. All rights reserved.
+    &copy; <span id="year"></span> Shaldag Security Ltd. All rights reserved.
+    <div class="footer-legal">
+        Company Registration No. 516136090 • Website: https://www.shaldagsecurity.digital/
+    </div>
 </footer>
 
 <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 
-<footer>
-    © 2025 MODIIN'S WATERS LTD. All rights reserved.
-</footer>
-
 </body>
 </html>
-
-
-
-
 
