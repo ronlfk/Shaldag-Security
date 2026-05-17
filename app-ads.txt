@@ -1,6 +1,15 @@
 #admob
 google.com, pub-7257176588145778, DIRECT, f08c47fec0942fa0
 #unity
+
+smartadserver.com, 4972, RESELLER, 060d053dcf45cbf3
+adform.com, 3400, RESELLER, 9f5210a2f0999e32
+onlinemediasolutions.com, 23120, RESELLER, b3868b187e4b6402
+rubiconproject.com, 17062, RESELLER, 0bfd66d529a55807
+themediagrid.com, GODNC4, RESELLER, 35d5010d7789b49d
+triplelift.com, 95054, RESELLER, 6c33edb13117fd86
+pubmatic.com, 163117, RESELLER, 5d62403b186f2ace
+brightcom.com, 23120, RESELLER
 adagio.io, 1522, RESELLER
 adagio.io, 1575, RESELLER
 admanmedia.com, 2242, RESELLER
